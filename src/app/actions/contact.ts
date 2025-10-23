@@ -7,13 +7,22 @@ const contactSchema = z.object({
   name: z.string().min(2, 'Ad en az 2 karakter olmalıdır'),
   company: z.string().optional(),
   email: z.string().email('Geçerli bir e-posta adresi giriniz'),
-  phone: z.string().min(10, 'Telefon numarası en az 10 karakter olmalıdır'),
+  phone: z.string().min(5, 'Telefon numarası en az 5 karakter olmalıdır').optional(),
   service: z.string().min(1, 'Hizmet türü seçiniz'),
   message: z.string().min(10, 'Mesaj en az 10 karakter olmalıdır'),
 });
 
 export async function submitContactForm(formData: FormData) {
   try {
+    // Environment değişkenlerini kontrol et
+    if (!process.env.RESEND_API_KEY) {
+      console.error('RESEND_API_KEY environment değişkeni tanımlanmamış');
+      return {
+        success: false,
+        message: 'E-posta servisi yapılandırılmamış. Lütfen site yöneticisi ile iletişime geçin.',
+      };
+    }
+
     // Form verilerini al
     const rawData = {
       name: formData.get('name') as string,

@@ -49,7 +49,13 @@ export default function IletisimPage() {
         setSubmitStatus({ type: 'error', message: result.message })
       }
     } catch (error) {
-      setSubmitStatus({ type: 'error', message: 'Beklenmeyen bir hata oluştu. Lütfen tekrar deneyiniz.' })
+      console.error('Form gönderim hatası:', error);
+      setSubmitStatus({ 
+        type: 'error', 
+        message: error instanceof Error 
+          ? `Hata: ${error.message}` 
+          : 'Beklenmeyen bir hata oluştu. Lütfen tekrar deneyiniz.' 
+      })
     } finally {
       setIsSubmitting(false)
     }

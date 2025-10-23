@@ -13,6 +13,12 @@ export interface ContactFormData {
 
 export async function sendContactEmail(data: ContactFormData) {
   try {
+    // API key kontrolü
+    if (!process.env.RESEND_API_KEY) {
+      console.error('RESEND_API_KEY environment değişkeni tanımlanmamış');
+      return { success: false, error: 'E-posta servisi yapılandırılmamış' };
+    }
+
     // Debug: API key kontrolü
     console.log('API Key var mı:', !!process.env.RESEND_API_KEY);
     console.log('FROM:', process.env.EMAIL_FROM || 'noreply@emkanglobal.com');
