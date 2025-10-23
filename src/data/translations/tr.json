@@ -1,0 +1,62 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "services": "Hizmetler",
+    "about": "Hakkımızda",
+    "contact": "İletişim"
+  },
+  "hero": {
+    "title": "Denizde hızlı, tedarikte şeffaf.",
+    "subtitle": "Küresel deniz taşımacılığı, üre ve bitumda uçtan uca çözümler.",
+    "ctaPrimary": "Teklif Al",
+    "ctaSecondary": "Hizmetler"
+  },
+  "services": {
+    "oceanFreight": {
+      "title": "Deniz Taşımacılığı",
+      "description": "FCL/LCL ve proje kargoda akıllı rota planlama; şeffaf takip.",
+      "bullets": [
+        "FCL & LCL konteyner taşımacılığı",
+        "Proje kargo ve ağır yük",
+        "Multimodal lojistik çözümleri",
+        "Gerçek zamanlı takip sistemi"
+      ],
+      "ctaDetails": "Detaylar",
+      "ctaQuote": "Teklif Al"
+    },
+    "ureaTrading": {
+      "title": "Üre (N46) Ticareti",
+      "description": "Urea 46% N — prilled & granular; güvenilir menşe, doğru termin.",
+      "bullets": [
+        "46% N • Prilled/Granular",
+        "50kg/Jumbo/Bulk ambalaj",
+        "FOB/CFR/CIF teslim",
+        "SGS/COA/CIQ belgeleri"
+      ],
+      "ctaDetails": "Detaylar",
+      "ctaQuote": "Teklif Al"
+    },
+    "bitumenTrading": {
+      "title": "Bitum Ticareti",
+      "description": "Pen 60/70 ve 80/100 — standartlara uygun kalite, doğru ambalaj.",
+      "bullets": [
+        "Pen 60/70 • 80/100",
+        "VG30 viscosity grade",
+        "Drum/Bulk ambalaj",
+        "COA/MSDS belgeleri"
+      ],
+      "ctaDetails": "Detaylar",
+      "ctaQuote": "Teklif Al"
+    }
+  },
+  "kpi": {
+    "annualShipping": "Yıllık Taşıma",
+    "countriesServed": "Hizmet Verilen Ülke",
+    "averageTransit": "Ortalama Transit Süre",
+    "deliverySuccess": "Teslimat Başarı Oranı"
+  },
+  "references": {
+    "title": "Referanslarımız",
+    "subtitle": "Güvenilir iş ortaklarımız ve başarılı projelerimiz"
+  }
+}
