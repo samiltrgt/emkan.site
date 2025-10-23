@@ -1,0 +1,66 @@
+{
+  "stats": [
+    {
+      "label": "Yıllık Taşıma",
+      "value": "15,000",
+      "suffix": "TEU"
+    },
+    {
+      "label": "Hizmet Verilen Ülke", 
+      "value": "45",
+      "suffix": "+"
+    },
+    {
+      "label": "Ortalama Transit Süre",
+      "value": "12",
+      "suffix": "gün"
+    },
+    {
+      "label": "Teslimat Başarı Oranı",
+      "value": "98.5",
+      "suffix": "%"
+    }
+  ],
+  "clients": [
+    {
+      "name": "Maersk",
+      "logoUrl": "/logos/maersk.svg",
+      "href": "https://maersk.com"
+    },
+    {
+      "name": "CMA CGM", 
+      "logoUrl": "/logos/cmacgm.svg",
+      "href": "https://cmacgm.com"
+    },
+    {
+      "name": "MSC",
+      "logoUrl": "/logos/msc.svg", 
+      "href": "https://msc.com"
+    },
+    {
+      "name": "Hapag-Lloyd",
+      "logoUrl": "/logos/hapag.svg",
+      "href": "https://hapag-lloyd.com"
+    },
+    {
+      "name": "COSCO",
+      "logoUrl": "/logos/cosco.svg",
+      "href": "https://cosco.com"
+    },
+    {
+      "name": "ONE",
+      "logoUrl": "/logos/one.svg",
+      "href": "https://one-line.com"
+    },
+    {
+      "name": "Evergreen",
+      "logoUrl": "/logos/evergreen.svg",
+      "href": "https://evergreen-line.com"
+    },
+    {
+      "name": "Yang Ming",
+      "logoUrl": "/logos/yangming.svg",
+      "href": "https://yangming.com"
+    }
+  ]
+}
