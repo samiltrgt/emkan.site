@@ -6,7 +6,7 @@ export interface ContactFormData {
   name: string;
   company?: string;
   email: string;
-  phone: string;
+  phone?: string;
   service: string;
   message: string;
 }
@@ -61,7 +61,7 @@ export async function sendContactEmail(data: ContactFormData) {
             <div style="margin-bottom: 20px;">
               <strong style="color: #0A1E3F;">📞 Telefon:</strong>
               <p style="margin: 5px 0; color: #374151;">
-                <a href="tel:${data.phone}" style="color: #2ED3B7; text-decoration: none;">${data.phone}</a>
+                ${data.phone ? `<a href="tel:${data.phone}" style="color: #2ED3B7; text-decoration: none;">${data.phone}</a>` : 'Belirtilmemiş'}
               </p>
             </div>
             
