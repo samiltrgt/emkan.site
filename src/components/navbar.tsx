@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Menu, X } from 'lucide-react'
 import { useLanguage } from '@/contexts/language-context'
+import LanguageSelector from '@/components/language-selector'
 
 export default function NavBar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -22,7 +23,7 @@ export default function NavBar() {
 
   const navLinks = [
     { href: '/', label: t('nav.home') },
-    { href: '/#services', label: t('nav.services') },
+    { href: '/hizmetler', label: t('nav.services') },
     { href: '/hakkimizda', label: t('nav.about') },
     { href: '/iletisim', label: t('nav.contact') },
   ]
@@ -32,7 +33,7 @@ export default function NavBar() {
       <motion.nav
         initial={{ y: -100 }}
         animate={{ y: 0 }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+        className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${
           isScrolled 
             ? 'bg-white/30 backdrop-blur-3xl shadow-xl border-b border-white/20' 
             : 'bg-white/95 backdrop-blur-md shadow-sm'
@@ -50,7 +51,7 @@ export default function NavBar() {
                   {t('nav.home')}
                 </Link>
                 <Link 
-                  href="/#services" 
+                  href="/hizmetler" 
                   className="text-neutral-700 hover:text-primary transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50"
                 >
                   {t('nav.services')}
@@ -111,7 +112,7 @@ export default function NavBar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="fixed top-16 left-0 right-0 z-40 bg-white/98 backdrop-blur-xl shadow-2xl border-b border-gray-100 md:hidden"
+            className="fixed top-20 left-0 right-0 z-[90] bg-primary/95 backdrop-blur-xl shadow-2xl border-b border-white/20 md:hidden"
           >
             <div className="container py-6">
               <div className="space-y-2">
@@ -125,7 +126,7 @@ export default function NavBar() {
                     <Link
                       href={link.href}
                       onClick={() => setIsMobileMenuOpen(false)}
-                      className="block px-4 py-3 text-lg font-semibold text-gray-700 hover:text-primary hover:bg-gray-50 rounded-xl transition-all duration-300"
+                      className="block px-4 py-3 text-lg font-semibold text-white hover:text-accent hover:bg-white/10 rounded-xl transition-all duration-300"
                     >
                       {link.label}
                     </Link>
@@ -148,6 +149,19 @@ export default function NavBar() {
                 >
                   {t('nav.contact')}
                 </Link>
+              </motion.div>
+
+              {/* Dil Seçici - Sadece mobilde */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.5 }}
+                className="mt-6 pt-4 border-t border-white/20"
+              >
+                <div className="text-center">
+                  <p className="text-white/80 text-sm mb-3">Dil / Language</p>
+                  <LanguageSelector />
+                </div>
               </motion.div>
             </div>
           </motion.div>

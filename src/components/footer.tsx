@@ -59,23 +59,10 @@ export default function Footer() {
             <h3 className="font-semibold text-lg mb-4">İletişim</h3>
             <div className="space-y-3 text-neutral-300">
               <div className="flex items-center space-x-2">
-                <span className="text-accent">📞</span>
-                <a href="tel:+905318232164" className="hover:text-accent transition-colors duration-300">
-                  +90 531 823 21 64
-                </a>
-              </div>
-              <div className="flex items-center space-x-2">
                 <span className="text-accent">✉️</span>
                 <a href="mailto:info@emkanglobal.com" className="hover:text-accent transition-colors duration-300">
                   info@emkanglobal.com
                 </a>
-              </div>
-              <div className="flex items-start space-x-2">
-                <span className="text-accent mt-1">📍</span>
-                <span>
-                  Barbaros mah. Ardıç sk. Varyap meridian G2 blok D: 14<br />
-                  34726 Batı Ataşehir / İstanbul
-                </span>
               </div>
             </div>
           </div>

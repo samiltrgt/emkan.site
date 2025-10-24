@@ -1,5 +1,6 @@
 import { Metadata } from 'next'
 import NavBar from '@/components/navbar'
+import Footer from '@/components/footer'
 import SpecTable from '@/components/spec-table'
 
 export const metadata: Metadata = {
@@ -123,26 +124,11 @@ export default function DenizTasimaciligiPage() {
             </div>
           </div>
           
-          <div className="card">
-            <h2 className="text-3xl font-bold mb-8 text-center text-primary">Sıkça Sorulan Sorular</h2>
-            <div className="space-y-6">
-              <div className="border-b border-neutral-200 pb-4">
-                <h3 className="font-semibold text-lg mb-2">Transit süreleri ne kadar?</h3>
-                <p className="text-neutral-600">Avrupa rotalarında 7-14 gün, Asya rotalarında 15-25 gün arasında değişmektedir.</p>
-              </div>
-              <div className="border-b border-neutral-200 pb-4">
-                <h3 className="font-semibold text-lg mb-2">Takip sistemi nasıl çalışır?</h3>
-                <p className="text-neutral-600">Gerçek zamanlı konum takibi ve durum güncellemeleri ile sürekli bilgilendirme.</p>
-              </div>
-              <div className="border-b border-neutral-200 pb-4">
-                <h3 className="font-semibold text-lg mb-2">Sigorta kapsamı nedir?</h3>
-                <p className="text-neutral-600">Tam kapsamlı sigorta seçenekleri ve özel risk analizi ile koruma.</p>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       </main>
+      
+      <Footer />
     </>
   )
 }

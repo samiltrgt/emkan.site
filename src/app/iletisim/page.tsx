@@ -11,7 +11,6 @@ export default function IletisimPage() {
     name: '',
     company: '',
     email: '',
-    phone: '',
     service: '',
     message: ''
   })
@@ -41,7 +40,6 @@ export default function IletisimPage() {
           name: '',
           company: '',
           email: '',
-          phone: '',
           service: '',
           message: ''
         })
@@ -142,37 +140,20 @@ export default function IletisimPage() {
                     </div>
                   </div>
                   
-                  <div className="grid md:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="email" className="block text-sm font-medium text-neutral-700 mb-2">
-                        E-posta *
-                      </label>
-                      <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        required
-                        value={formData.email}
-                        onChange={handleChange}
-                        className="w-full px-4 py-3 border border-neutral-300 rounded-2xl focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
-                        placeholder="email@example.com"
-                      />
-                    </div>
-                    
-                    <div>
-                      <label htmlFor="phone" className="block text-sm font-medium text-neutral-700 mb-2">
-                        Telefon
-                      </label>
-                      <input
-                        type="tel"
-                        id="phone"
-                        name="phone"
-                        value={formData.phone}
-                        onChange={handleChange}
-                        className="w-full px-4 py-3 border border-neutral-300 rounded-2xl focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
-                        placeholder="+90 531 823 21 64"
-                      />
-                    </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-medium text-neutral-700 mb-2">
+                      E-posta *
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      value={formData.email}
+                      onChange={handleChange}
+                      className="w-full px-4 py-3 border border-neutral-300 rounded-2xl focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
+                      placeholder="email@example.com"
+                    />
                   </div>
                   
                   <div>
@@ -257,18 +238,6 @@ export default function IletisimPage() {
                   <div className="space-y-6">
                     <div className="flex items-start space-x-4">
                       <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center flex-shrink-0">
-                        <span className="text-white text-xl">📞</span>
-                      </div>
-                      <div>
-                        <h3 className="font-semibold text-lg mb-1">Telefon</h3>
-                        <a href="tel:+905318232164" className="text-neutral-600 hover:text-accent transition-colors duration-300">
-                          +90 531 823 21 64
-                        </a>
-                      </div>
-                    </div>
-                    
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center flex-shrink-0">
                         <span className="text-white text-xl">✉️</span>
                       </div>
                       <div>
@@ -278,50 +247,9 @@ export default function IletisimPage() {
                         </a>
                       </div>
                     </div>
-                    
-                    <div className="flex items-start space-x-4">
-                      <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center flex-shrink-0">
-                        <span className="text-white text-xl">📍</span>
-                      </div>
-                      <div>
-                        <h3 className="font-semibold text-lg mb-1">Adres</h3>
-                        <p className="text-neutral-600">
-                          Barbaros mah. Ardıç sk. Varyap meridian G2 blok D: 14<br />
-                          34726 Batı Ataşehir / İstanbul
-                        </p>
-                      </div>
-                    </div>
                   </div>
                 </div>
                 
-                <div className="card">
-                  <h2 className="text-2xl font-bold mb-6 text-primary">Çalışma Saatleri</h2>
-                  
-                  <div className="space-y-3">
-                    <div className="flex justify-between">
-                      <span className="text-neutral-600">Pazartesi - Cuma</span>
-                      <span className="font-medium">09:00 - 18:00</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-neutral-600">Cumartesi</span>
-                      <span className="font-medium">09:00 - 13:00</span>
-                    </div>
-                    <div className="flex justify-between">
-                      <span className="text-neutral-600">Pazar</span>
-                      <span className="font-medium">Kapalı</span>
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="card">
-                  <h2 className="text-2xl font-bold mb-6 text-primary">Acil Durum</h2>
-                  <p className="text-neutral-600 mb-4">
-                    Acil durumlar için 7/24 ulaşabileceğiniz telefon hattımız:
-                  </p>
-                  <a href="tel:+905318232164" className="text-accent font-semibold text-lg hover:underline">
-                    +90 531 823 21 64
-                  </a>
-                </div>
               </motion.div>
             </div>
           </div>

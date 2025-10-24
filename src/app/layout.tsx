@@ -57,17 +57,8 @@ export default function RootLayout({
     url: 'https://emkan.site',
     logo: 'https://emkan.site/logo.png',
     description: 'Küresel deniz taşımacılığı ve emtia ticaretinde güvenilir ortağınız',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: 'Barbaros mah. Ardıç sk. Varyap meridian G2 blok D: 14',
-      addressLocality: 'Batı Ataşehir',
-      addressRegion: 'İstanbul',
-      postalCode: '34726',
-      addressCountry: 'TR',
-    },
     contactPoint: {
       '@type': 'ContactPoint',
-      telephone: '+90-531-823-21-64',
       contactType: 'customer service',
       email: 'info@emkanglobal.com',
     },
@@ -131,10 +122,6 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased bg-background text-text">
         <LanguageProvider>
-          {/* Dil Seçici - En üst sağ köşe */}
-          <div className="fixed top-4 right-4 z-[9999]">
-            <LanguageSelector />
-          </div>
           {children}
         </LanguageProvider>
       </body>

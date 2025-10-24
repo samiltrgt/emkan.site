@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 import Reveal from '@/components/reveal'
 import NavBar from '@/components/navbar'
+import Footer from '@/components/footer'
 import { ShieldCheck, Cpu, Globe2, Sparkles, Award, TrendingUp, Clock } from 'lucide-react'
 
 export const metadata: Metadata = {
@@ -185,55 +186,10 @@ Profesyonellik, dürüstlük ve kalite anlayışı, tüm süreçlerimizin temeli
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-20 bg-primary text-white">
-        <div className="container">
-          <div className="max-w-6xl mx-auto">
-            <Reveal y={30} className="text-center mb-16">
-              <h2 className="text-4xl md:text-5xl font-bold mb-6">Rakamlarla Emkan</h2>
-              <p className="text-xl text-white/90 max-w-3xl mx-auto">
-                Başarılarımızı ve büyümemizi rakamlarla gösteriyoruz
-              </p>
-            </Reveal>
-
-            <div className="grid md:grid-cols-4 gap-8">
-              <Reveal y={30} delay={0.1} className="text-center">
-                <div className="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                  <Globe2 className="w-10 h-10" />
-                </div>
-                <div className="text-4xl font-bold mb-2">45+</div>
-                <div className="text-white/80">Hizmet Verilen Ülke</div>
-              </Reveal>
-
-              <Reveal y={30} delay={0.2} className="text-center">
-                <div className="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                  <TrendingUp className="w-10 h-10" />
-                </div>
-                <div className="text-4xl font-bold mb-2">15,000</div>
-                <div className="text-white/80">Yıllık TEU Taşıma</div>
-              </Reveal>
-
-              <Reveal y={30} delay={0.3} className="text-center">
-                <div className="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                  <Award className="w-10 h-10" />
-                </div>
-                <div className="text-4xl font-bold mb-2">98.5%</div>
-                <div className="text-white/80">Teslimat Başarı Oranı</div>
-              </Reveal>
-
-              <Reveal y={30} delay={0.4} className="text-center">
-                <div className="w-20 h-20 bg-white/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                  <Clock className="w-10 h-10" />
-                </div>
-                <div className="text-4xl font-bold mb-2">12</div>
-                <div className="text-white/80">Ortalama Transit Gün</div>
-              </Reveal>
-            </div>
-          </div>
-        </div>
-      </section>
 
       </main>
+      
+      <Footer />
     </>
   )
 }

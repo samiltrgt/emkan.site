@@ -73,26 +73,6 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
           </motion.div>
         </motion.div>
       </div>
-      
-      {/* Scroll indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1, delay: 1 }}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
-      >
-        <a 
-          href="#services"
-          className="block w-6 h-10 border-2 border-white rounded-full flex justify-center cursor-pointer hover:border-accent transition-colors duration-300 group"
-          aria-label="Aşağıdaki bölüme geç"
-        >
-          <motion.div
-            animate={{ y: [0, 12, 0] }}
-            transition={{ duration: 1.5, repeat: Infinity }}
-            className="w-1 h-3 bg-white rounded-full mt-2 group-hover:bg-accent transition-colors duration-300"
-          />
-        </a>
-      </motion.div>
     </section>
   )
 }
