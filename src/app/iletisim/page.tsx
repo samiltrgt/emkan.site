@@ -37,7 +37,7 @@ export default function IletisimPage() {
       const result = await submitContactForm(formDataObj)
       
       if (result.success) {
-        setSubmitStatus({ type: 'success', message: t('contact.form.success') })
+        setSubmitStatus({ type: 'success', message: t('contact.form.success') as string })
         setFormData({
           name: '',
           company: '',
@@ -46,11 +46,11 @@ export default function IletisimPage() {
           message: ''
         })
       } else {
-        setSubmitStatus({ type: 'error', message: t('contact.form.error') })
+        setSubmitStatus({ type: 'error', message: t('contact.form.error') as string })
       }
     } catch (error) {
       console.error('Form gönderim hatası:', error);
-      setSubmitStatus({ type: 'error', message: t('contact.form.error') })
+      setSubmitStatus({ type: 'error', message: t('contact.form.error') as string })
     } finally {
       setIsSubmitting(false)
     }
@@ -112,7 +112,7 @@ export default function IletisimPage() {
                         value={formData.name}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-neutral-300 rounded-2xl focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
-                        placeholder={t('contact.form.name')}
+                        placeholder={t('contact.form.name') as string}
                       />
                     </div>
                     
@@ -127,7 +127,7 @@ export default function IletisimPage() {
                         value={formData.company}
                         onChange={handleChange}
                         className="w-full px-4 py-3 border border-neutral-300 rounded-2xl focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
-                        placeholder={t('contact.form.company')}
+                        placeholder={t('contact.form.company') as string}
                       />
                     </div>
                   </div>
@@ -144,7 +144,7 @@ export default function IletisimPage() {
                       value={formData.email}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-neutral-300 rounded-2xl focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300"
-                      placeholder={t('contact.form.email')}
+                      placeholder={t('contact.form.email') as string}
                     />
                   </div>
                   
@@ -179,7 +179,7 @@ export default function IletisimPage() {
                       value={formData.message}
                       onChange={handleChange}
                       className="w-full px-4 py-3 border border-neutral-300 rounded-2xl focus:ring-2 focus:ring-accent focus:border-transparent transition-all duration-300 resize-none"
-                      placeholder={t('contact.form.message')}
+                      placeholder={t('contact.form.message') as string}
                     />
                   </div>
                   
