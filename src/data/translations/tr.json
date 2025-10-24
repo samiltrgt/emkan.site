@@ -140,5 +140,13 @@
       "bitumenTrading": "Bitum Ticareti",
       "other": "Diğer"
     }
+  },
+  "footer": {
+    "description": "Küresel deniz taşımacılığı ve emtia ticaretinde güvenilir ortağınız. Denizde hızlı, tedarikte şeffaf çözümler.",
+    "services": "Hizmetler",
+    "contact": "İletişim",
+    "copyright": "© 2024 Emkan Global. Tüm hakları saklıdır.",
+    "kvkk": "KVKK",
+    "cookiePolicy": "Çerez Politikası"
   }
 }

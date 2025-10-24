@@ -1,8 +1,11 @@
 'use client'
 
 import Link from 'next/link'
+import { useLanguage } from '@/contexts/language-context'
 
 export default function Footer() {
+  const { t } = useLanguage()
+  
   return (
     <footer className="bg-primary text-white">
       <div className="container py-16">
@@ -16,8 +19,7 @@ export default function Footer() {
               <span className="font-heading font-bold text-xl">Emkan Global</span>
             </div>
             <p className="text-neutral-300 mb-6 max-w-md">
-              Küresel deniz taşımacılığı ve emtia ticaretinde güvenilir ortağınız. 
-              Denizde hızlı, tedarikte şeffaf çözümler.
+              {t('footer.description') as string}
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-accent transition-colors duration-300">
@@ -34,21 +36,21 @@ export default function Footer() {
 
           {/* Services */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">Hizmetler</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('footer.services') as string}</h3>
             <ul className="space-y-3">
               <li>
                 <Link href="/hizmetler/deniz-tasimaciligi" className="text-neutral-300 hover:text-accent transition-colors duration-300">
-                  Deniz Taşımacılığı
+                  {t('services.oceanFreight.title') as string}
                 </Link>
               </li>
               <li>
                 <Link href="/hizmetler/ure-ticareti" className="text-neutral-300 hover:text-accent transition-colors duration-300">
-                  Üre Ticareti
+                  {t('services.ureaTrading.title') as string}
                 </Link>
               </li>
               <li>
                 <Link href="/hizmetler/bitum-ticareti" className="text-neutral-300 hover:text-accent transition-colors duration-300">
-                  Bitum Ticareti
+                  {t('services.bitumenTrading.title') as string}
                 </Link>
               </li>
             </ul>
@@ -56,7 +58,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h3 className="font-semibold text-lg mb-4">İletişim</h3>
+            <h3 className="font-semibold text-lg mb-4">{t('footer.contact') as string}</h3>
             <div className="space-y-3 text-neutral-300">
               <div className="flex items-center space-x-2">
                 <span className="text-accent">✉️</span>
@@ -70,14 +72,14 @@ export default function Footer() {
 
         <div className="border-t border-white/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-neutral-300 text-sm">
-            © 2024 Emkan Global. Tüm hakları saklıdır.
+            {t('footer.copyright') as string}
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/kvkk" className="text-neutral-300 hover:text-accent transition-colors duration-300 text-sm">
-              KVKK
+              {t('footer.kvkk') as string}
             </Link>
             <Link href="/cerez" className="text-neutral-300 hover:text-accent transition-colors duration-300 text-sm">
-              Çerez Politikası
+              {t('footer.cookiePolicy') as string}
             </Link>
           </div>
         </div>

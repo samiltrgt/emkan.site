@@ -140,5 +140,13 @@
       "bitumenTrading": "Bitumen Trading",
       "other": "Other"
     }
+  },
+  "footer": {
+    "description": "Your reliable partner in global sea transportation and commodity trade. Fast at sea, transparent in supply solutions.",
+    "services": "Services",
+    "contact": "Contact",
+    "copyright": "© 2024 Emkan Global. All rights reserved.",
+    "kvkk": "GDPR",
+    "cookiePolicy": "Cookie Policy"
   }
 }

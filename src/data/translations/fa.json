@@ -140,5 +140,13 @@
       "bitumenTrading": "تجارت قیر",
       "other": "سایر"
     }
+  },
+  "footer": {
+    "description": "شریک قابل اعتماد شما در حمل و نقل دریایی جهانی و تجارت کالا. سریع در دریا، شفاف در عرضه.",
+    "services": "خدمات",
+    "contact": "تماس",
+    "copyright": "© 2024 Emkan Global. تمامی حقوق محفوظ است.",
+    "kvkk": "GDPR",
+    "cookiePolicy": "سیاست کوکی"
   }
 }

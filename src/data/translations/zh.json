@@ -140,5 +140,13 @@
       "bitumenTrading": "沥青贸易",
       "other": "其他"
     }
+  },
+  "footer": {
+    "description": "全球海运和大宗商品贸易的可靠合作伙伴。海上快速，供应透明。",
+    "services": "服务",
+    "contact": "联系我们",
+    "copyright": "© 2024 Emkan Global. 版权所有。",
+    "kvkk": "GDPR",
+    "cookiePolicy": "Cookie政策"
   }
 }
