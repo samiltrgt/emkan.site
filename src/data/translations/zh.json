@@ -58,5 +58,87 @@
   "references": {
     "title": "我们的参考",
     "subtitle": "可信赖的商业伙伴和成功项目"
+  },
+  "servicePages": {
+    "denizTasimaciligi": {
+      "title": "海运",
+      "subtitle": "FCL/LCL和项目货物智能路线规划；透明跟踪。",
+      "containerTransport": {
+        "title": "快速可靠的集装箱运输",
+        "description": "作为Emkan Global，我们提供集装箱运输服务，确保您的货物安全快速地到达目的地。",
+        "details": "无论是国内贸易还是进出口，我们的专业团队保证您的产品安全、及时、低成本地运输。",
+        "scope": "我们的服务范围：",
+        "scopeItems": "包装 • 装载 • 海运 • 集装箱跟踪"
+      },
+      "dryCargo": {
+        "title": "干散货船安全运输",
+        "description": "作为Emkan Global，我们用干散货船安全运输您的大批量货物。",
+        "details": "我们为谷物、煤炭、矿物和其他干散货提供特殊解决方案，确保您的货物及时无损地到达目的地。",
+        "advantages": "我们的优势：",
+        "advantagesItems": "经验丰富的团队 • 现代化船队 • 信任和效率"
+      },
+      "projectCargo": {
+        "title": "项目货物",
+        "heavyCargo": {
+          "title": "重件货物",
+          "description": "特殊设备和机械运输"
+        },
+        "multimodal": {
+          "title": "多式联运",
+          "description": "海陆空组合"
+        },
+        "routeOptimization": {
+          "title": "路线优化",
+          "description": "智能规划和调度"
+        }
+      }
+    },
+    "ureTicareti": {
+      "title": "尿素贸易",
+      "subtitle": "尿素46% N — 颗粒状；可靠来源，准确时机。",
+      "reliableTrading": {
+        "title": "可靠的尿素贸易，全球市场的强势品牌！",
+        "description": "我们通过现代营销策略向全球市场提供高质量的尿素产品。信任、速度和可持续的合作伙伴关系是我们的优先事项。"
+      },
+      "whatIsUrea": {
+        "title": "什么是尿素以及为什么它很重要？",
+        "description": "尿素是一种含有高浓度氮的肥料，氮是植物生长所必需的。这种提高农业效率的产品是全世界最受欢迎的肥料类型之一。",
+        "companyFocus": "我们公司通过优质的尿素供应支持农业生产，并通过可靠的贸易网络为客户提供最佳解决方案。"
+      }
+    },
+    "bitumTicareti": {
+      "title": "沥青贸易",
+      "subtitle": "Pen 60/70和80/100 — 质量合规，适当包装。",
+      "reliablePartner": {
+        "title": "Emkan Global沥青贸易中的可靠商业伙伴",
+        "description": "Emkan Global是沥青贸易中的可靠商业伙伴。我们为客户提供用于道路建设、沥青和防水行业的沥青，保证可靠的供应和及时的交付。",
+        "guarantees": "我们的服务保证：",
+        "guaranteesItems": "可靠供应 • 及时交付 • 质量保证"
+      }
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "与我们联系，我们很乐意为您提供帮助。",
+    "contactInfo": {
+      "title": "联系信息",
+      "email": "电子邮件"
+    },
+    "form": {
+      "name": "全名",
+      "company": "公司",
+      "email": "电子邮件",
+      "service": "服务类型",
+      "message": "消息",
+      "submit": "发送",
+      "success": "您的消息已成功发送！",
+      "error": "发生错误。请重试。"
+    },
+    "serviceTypes": {
+      "oceanFreight": "海运",
+      "ureaTrading": "尿素贸易",
+      "bitumenTrading": "沥青贸易",
+      "other": "其他"
+    }
   }
 }

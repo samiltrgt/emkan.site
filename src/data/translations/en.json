@@ -58,5 +58,87 @@
   "references": {
     "title": "Our References",
     "subtitle": "Trusted business partners and successful projects"
+  },
+  "servicePages": {
+    "denizTasimaciligi": {
+      "title": "Ocean Freight",
+      "subtitle": "FCL/LCL and project cargo intelligent route planning; transparent tracking.",
+      "containerTransport": {
+        "title": "Fast and Reliable Container Transportation",
+        "description": "As Emkan Global, we provide container transportation services that ensure your goods reach their destination safely and quickly.",
+        "details": "Whether it's domestic trade or export and import, our professional team guarantees that your products are transported safely, on time and at the lowest cost.",
+        "scope": "Our Service Scope:",
+        "scopeItems": "Packaging • Loading • Ocean Transportation • Container Tracking"
+      },
+      "dryCargo": {
+        "title": "Safe Transportation with Dry Cargo Ships",
+        "description": "As Emkan Global, we safely transport your large-volume cargoes with dry cargo ships.",
+        "details": "We provide special solutions for grain, coal, minerals and other dry cargoes, ensuring that your cargoes reach their destination on time and without damage.",
+        "advantages": "Our Advantages:",
+        "advantagesItems": "Experienced Team • Modern Ship Fleet • Trust and Efficiency"
+      },
+      "projectCargo": {
+        "title": "Project Cargo",
+        "heavyCargo": {
+          "title": "Heavy Cargo",
+          "description": "Special equipment and machinery transportation"
+        },
+        "multimodal": {
+          "title": "Multimodal",
+          "description": "Sea-land-air combination"
+        },
+        "routeOptimization": {
+          "title": "Route Optimization",
+          "description": "Smart planning and scheduling"
+        }
+      }
+    },
+    "ureTicareti": {
+      "title": "Urea Trading",
+      "subtitle": "Urea 46% N — prilled & granular; reliable origin, accurate timing.",
+      "reliableTrading": {
+        "title": "Reliable Urea Trading, Strong Brand in Global Market!",
+        "description": "We offer high-quality urea products to the world market with modern marketing strategies. Trust, speed and sustainable partnerships are our priority."
+      },
+      "whatIsUrea": {
+        "title": "What is Urea and Why is it Important?",
+        "description": "Urea is a fertilizer that contains nitrogen in high amounts, which is necessary for plant growth. This product, which increases efficiency in agriculture, is one of the most preferred fertilizer types worldwide.",
+        "companyFocus": "Our company supports agricultural production with quality urea supply and offers the best solutions to its customers with a reliable trade network."
+      }
+    },
+    "bitumTicareti": {
+      "title": "Bitumen Trading",
+      "subtitle": "Pen 60/70 and 80/100 — quality compliant, proper packaging.",
+      "reliablePartner": {
+        "title": "Emkan Global Reliable Business Partner in Bitumen Trading",
+        "description": "Emkan Global is a reliable business partner in bitumen trading. We offer bitumen used in road construction, asphalt and waterproofing sectors to our customers with reliable supply and timely delivery guarantee.",
+        "guarantees": "Our Service Guarantees:",
+        "guaranteesItems": "Reliable Supply • Timely Delivery • Quality Guarantee"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Get in touch with us, we'd be happy to help you.",
+    "contactInfo": {
+      "title": "Contact Information",
+      "email": "Email"
+    },
+    "form": {
+      "name": "Full Name",
+      "company": "Company",
+      "email": "Email",
+      "service": "Service Type",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Your message has been sent successfully!",
+      "error": "An error occurred. Please try again."
+    },
+    "serviceTypes": {
+      "oceanFreight": "Ocean Freight",
+      "ureaTrading": "Urea Trading",
+      "bitumenTrading": "Bitumen Trading",
+      "other": "Other"
+    }
   }
 }

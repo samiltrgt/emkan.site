@@ -58,5 +58,87 @@
   "references": {
     "title": "Referanslarımız",
     "subtitle": "Güvenilir iş ortaklarımız ve başarılı projelerimiz"
+  },
+  "servicePages": {
+    "denizTasimaciligi": {
+      "title": "Deniz Taşımacılığı",
+      "subtitle": "FCL/LCL ve proje kargoda akıllı rota planlama; şeffaf takip.",
+      "containerTransport": {
+        "title": "Hızlı ve Güvenilir Konteyner Taşımacılığı",
+        "description": "Emkan Global olarak, mallarınızın varış noktasına güvenli ve hızlı bir şekilde ulaşmasını sağlayan konteyner taşımacılığı hizmetleri sunuyoruz.",
+        "details": "İster yurt içi ticaret, ister ihracat ve ithalat olsun, profesyonel ekibimiz, ürünlerinizin güvenli, zamanında ve en düşük maliyetle taşınmasını garanti eder.",
+        "scope": "Hizmet Kapsamımız:",
+        "scopeItems": "Paketleme • Yükleme • Deniz Taşımacılığı • Konteyner Takibi"
+      },
+      "dryCargo": {
+        "title": "Kuru Yük Gemisi ile Güvenli Taşımacılık",
+        "description": "Emkan Global olarak, kuru yük gemileri ile büyük hacimli yüklerinizi güvenle taşıyoruz.",
+        "details": "Tahıl, kömür, mineraller ve diğer kuru yükler için özel çözümler sunuyor, yüklerinizin zamanında ve hasarsız varış noktasına ulaşmasını sağlıyoruz.",
+        "advantages": "Avantajlarımız:",
+        "advantagesItems": "Deneyimli Ekip • Modern Gemi Filosu • Güven ve Verimlilik"
+      },
+      "projectCargo": {
+        "title": "Proje Kargo",
+        "heavyCargo": {
+          "title": "Ağır Yük",
+          "description": "Özel ekipman ve makine taşımacılığı"
+        },
+        "multimodal": {
+          "title": "Multimodal",
+          "description": "Deniz-kara-hava kombinasyonu"
+        },
+        "routeOptimization": {
+          "title": "Rota Optimizasyonu",
+          "description": "Akıllı planlama ve zamanlama"
+        }
+      }
+    },
+    "ureTicareti": {
+      "title": "Üre Ticareti",
+      "subtitle": "Urea 46% N — prilled & granular; güvenilir menşe, doğru termin.",
+      "reliableTrading": {
+        "title": "Güvenilir Üre Ticareti, Global Pazarda Güçlü Marka!",
+        "description": "Yüksek kaliteli üre ürünlerini, modern pazarlama stratejileriyle dünya pazarına sunuyoruz. Güven, hız ve sürdürülebilir iş birlikleri bizim önceliğimizdir."
+      },
+      "whatIsUrea": {
+        "title": "Üre Nedir ve Neden Önemlidir?",
+        "description": "Üre, bitkilerin büyümesi için gerekli olan azotu yüksek oranda içeren bir gübredir. Tarımda verimliliği artıran bu ürün, dünya genelinde en çok tercih edilen gübre çeşitlerinden biridir.",
+        "companyFocus": "Firmamız, kaliteli üre tedarikiyle tarımsal üretimi desteklemekte ve güvenilir ticaret ağıyla müşterilerine en iyi çözümleri sunmaktadır."
+      }
+    },
+    "bitumTicareti": {
+      "title": "Bitum Ticareti",
+      "subtitle": "Pen 60/70 ve 80/100 — standartlara uygun kalite, doğru ambalaj.",
+      "reliablePartner": {
+        "title": "Emkan Global Bitum Ticaretinde Güvenilir İş Ortağı",
+        "description": "Emkan Global bitüm ticaretinde güvenilir bir iş ortağıdır. Yol yapımı, asfalt ve su yalıtımı sektörlerinde kullanılan bitümü, müşterilerimize güvenilir tedarik ve zamanında teslimat garantisi ile sunuyoruz.",
+        "guarantees": "Hizmet Garantilerimiz:",
+        "guaranteesItems": "Güvenilir Tedarik • Zamanında Teslimat • Kalite Garantisi"
+      }
+    }
+  },
+  "contact": {
+    "title": "İletişim",
+    "subtitle": "Bizimle iletişime geçin, size yardımcı olmaktan mutluluk duyarız.",
+    "contactInfo": {
+      "title": "İletişim Bilgileri",
+      "email": "E-posta"
+    },
+    "form": {
+      "name": "Ad Soyad",
+      "company": "Şirket",
+      "email": "E-posta",
+      "service": "Hizmet Türü",
+      "message": "Mesaj",
+      "submit": "Gönder",
+      "success": "Mesajınız başarıyla gönderildi!",
+      "error": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "serviceTypes": {
+      "oceanFreight": "Deniz Taşımacılığı",
+      "ureaTrading": "Üre Ticareti",
+      "bitumenTrading": "Bitum Ticareti",
+      "other": "Diğer"
+    }
   }
 }

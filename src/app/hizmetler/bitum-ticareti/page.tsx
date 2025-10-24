@@ -1,14 +1,12 @@
-import { Metadata } from 'next'
+'use client'
+
 import NavBar from '@/components/navbar'
 import Footer from '@/components/footer'
-
-export const metadata: Metadata = {
-  title: 'Bitum Ticareti | Emkan Global',
-  description: 'Pen 60/70 ve 80/100 — standartlara uygun kalite, doğru ambalaj. Kaliteli bitum ticareti hizmetlerimiz.',
-}
-
+import { useLanguage } from '@/contexts/language-context'
 
 export default function BitumTicaretiPage() {
+  const { t } = useLanguage()
+  
   return (
     <>
       <NavBar />
@@ -16,11 +14,11 @@ export default function BitumTicaretiPage() {
       <div className="container py-20">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold gradient-text mb-8 text-center">
-            Bitum Ticareti
+            {t('servicePages.bitumTicareti.title')}
           </h1>
           
           <p className="text-xl text-neutral-600 mb-12 text-center max-w-3xl mx-auto">
-            Pen 60/70 ve 80/100 — standartlara uygun kalite, doğru ambalaj.
+            {t('servicePages.bitumTicareti.subtitle')}
           </p>
           
           {/* Emkan Global Bitum Ticareti Bölümü */}
@@ -30,22 +28,19 @@ export default function BitumTicaretiPage() {
                 <div className="text-2xl">🛣️</div>
               </div>
               <div className="flex-1">
-                <h2 className="text-3xl font-bold mb-6 text-primary">Emkan Global Bitum Ticaretinde Güvenilir İş Ortağı</h2>
+                <h2 className="text-3xl font-bold mb-6 text-primary">{t('servicePages.bitumTicareti.reliablePartner.title')}</h2>
                 <div className="space-y-4 text-neutral-600 leading-relaxed">
                   <p>
-                    <span className="font-semibold text-primary">Emkan Global</span> bitüm ticaretinde güvenilir bir iş ortağıdır. <span className="font-medium text-accent">Yol yapımı, asfalt ve su yalıtımı</span> sektörlerinde kullanılan bitümü, müşterilerimize güvenilir tedarik ve zamanında teslimat garantisi ile sunuyoruz.
+                    {t('servicePages.bitumTicareti.reliablePartner.description')}
                   </p>
                   <div className="bg-gradient-to-r from-accent/10 to-primary/10 p-4 rounded-xl border-l-4 border-accent">
-                    <p className="text-sm font-medium text-primary mb-1">Hizmet Garantilerimiz:</p>
-                    <p className="text-sm">Güvenilir Tedarik • Zamanında Teslimat • Kalite Garantisi</p>
+                    <p className="text-sm font-medium text-primary mb-1">{t('servicePages.bitumTicareti.reliablePartner.guarantees')}</p>
+                    <p className="text-sm">{t('servicePages.bitumTicareti.reliablePartner.guaranteesItems')}</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
-          
-          
           
         </div>
       </div>
