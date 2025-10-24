@@ -148,5 +148,43 @@
     "copyright": "© 2024 Emkan Global. Tüm hakları saklıdır.",
     "kvkk": "KVKK",
     "cookiePolicy": "Çerez Politikası"
+  },
+  "about": {
+    "title": "Hakkımızda",
+    "subtitle": "Küresel deniz taşımacılığı, Bitum ve Üre ticaretinde güvenilir ortağınız. Sorumlu vizyonumuzla dünya çapında değer yaratıyoruz.",
+    "stats": {
+      "countries": "45+ Ülke",
+      "partner": "Güvenilir Partner",
+      "growth": "Sürdürülebilir Büyüme"
+    },
+    "ourStory": {
+      "title": "Kim Olduğumuz",
+      "description1": "Uluslararası ticaret ve iş geliştirme alanlarında faaliyet gösteren dinamik bir ekibiz. Müşterilerimize güvenilir, şeffaf ve sürdürülebilir çözümler sunmayı hedefliyoruz. Yılların kazandırdığı tecrübe ve güçlü iş bağlantılarımızla, global pazarlarda etkin bir şekilde yer alıyor ve iş ortaklarımız için değer yaratıyoruz. Profesyonellik, dürüstlük ve kalite anlayışı, tüm süreçlerimizin temelini oluşturur",
+      "description2": "Küresel deniz taşımacılığı, Bitum ve Üre ticaretinde güvenilir bir köprü olmayı hedefliyoruz. Operasyonel mükemmellik, etik ilkelere bağlılık ve sürdürülebilir büyüme ile değer yaratıyoruz.",
+      "globalVision": {
+        "title": "Küresel Vizyon",
+        "description": "Dünya çapında güvenilir hizmet"
+      }
+    },
+    "focusAreas": {
+      "title": "Odak Noktalarımız",
+      "subtitle": "Sorumlu vizyonumuzla, teknoloji ve kalite odaklı yaklaşımımızla, bölgesel liderlik hedefimizle ve inovasyon ruhumuzla fark yaratıyoruz.",
+      "responsibleVision": {
+        "title": "Sorumlu Vizyon",
+        "description": "Destek verdiğimiz tüm alanlarda, sorumluluklarımızın bilincinde olarak, topluma öncü ve örnek olmaya çalışan bir vizyonla hareket etmekte, yatırımlarıyla ülke ekonomisine ve istihdama katkı sağlamayı hedeflemekteyiz."
+      },
+      "technologyQuality": {
+        "title": "Teknoloji ve Kalite",
+        "description": "Hizmet verdiğimiz müşterilerimize; üstün teknoloji, yüksek marka kalitesi ve dinamik insan kaynağı sunmaktayız. Temsilcisi olduğumuz ürünlerin değerini sadece Türkiye sınırları içinde değil, bölgesel ve küresel ölçekte de yükseltmeyi hedeflemektedir."
+      },
+      "regionalLeader": {
+        "title": "Bölgesel Lider",
+        "description": "Hammadde, Gıda başta olmak üzere tüm uluslararası ticaret ürünlerinde bölgesel bir lider olma vizyonunu ortaya koymakta ve bu konuda çalışmalarımıza aralıksız devam etmekteyiz."
+      },
+      "innovationAdaptation": {
+        "title": "İnovasyon ve Uyum",
+        "description": "Her zaman yenilikçi yaklaşımımızla, tüm bilgi birikimimiz ve işbirliklerimizin bir ürünü olarak, dünya çapındaki gelişmelere hızla uyum sağlayarak sahip olduğumuz geniş hizmet, bilgi ve işbirlikteliği ağını en iyi şekilde değerlendirmekteyiz."
+      }
+    }
   }
 }

@@ -148,5 +148,43 @@
     "copyright": "© 2024 Emkan Global. All rights reserved.",
     "kvkk": "GDPR",
     "cookiePolicy": "Cookie Policy"
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Your reliable partner in global sea transportation, Bitumen and Urea trading. We create value worldwide with our responsible vision.",
+    "stats": {
+      "countries": "45+ Countries",
+      "partner": "Trusted Partner",
+      "growth": "Sustainable Growth"
+    },
+    "ourStory": {
+      "title": "Who We Are",
+      "description1": "We are a dynamic team operating in the fields of international trade and business development. We aim to provide reliable, transparent and sustainable solutions to our customers. With the experience gained over the years and our strong business connections, we actively participate in global markets and create value for our business partners. Professionalism, integrity and quality understanding form the basis of all our processes",
+      "description2": "We aim to be a reliable bridge in global sea transportation, Bitumen and Urea trading. We create value through operational excellence, commitment to ethical principles and sustainable growth.",
+      "globalVision": {
+        "title": "Global Vision",
+        "description": "Reliable service worldwide"
+      }
+    },
+    "focusAreas": {
+      "title": "Our Focus Areas",
+      "subtitle": "We make a difference with our responsible vision, technology and quality-oriented approach, regional leadership goal and innovation spirit.",
+      "responsibleVision": {
+        "title": "Responsible Vision",
+        "description": "In all areas we support, we act with a vision that is aware of our responsibilities and tries to be a pioneer and example to society, aiming to contribute to the country's economy and employment with our investments."
+      },
+      "technologyQuality": {
+        "title": "Technology and Quality",
+        "description": "We provide superior technology, high brand quality and dynamic human resources to our customers. We aim to increase the value of the products we represent not only within Turkey's borders, but also on a regional and global scale."
+      },
+      "regionalLeader": {
+        "title": "Regional Leader",
+        "description": "We put forward the vision of being a regional leader in all international trade products, especially raw materials and food, and continue our work in this field without interruption."
+      },
+      "innovationAdaptation": {
+        "title": "Innovation and Adaptation",
+        "description": "With our always innovative approach, as a product of all our knowledge and collaborations, we evaluate our wide service, knowledge and cooperation network in the best way by quickly adapting to worldwide developments."
+      }
+    }
   }
 }
