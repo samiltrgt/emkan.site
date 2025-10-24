@@ -43,22 +43,22 @@ export default function NavBar() {
           <div className="relative h-16 md:h-20">
             {/* Desktop: Ana Sayfa, Hizmetler, Logo, Hakkımızda, İletişim */}
             <div className="hidden lg:flex items-center justify-center h-full">
-              <div className="flex items-center justify-between w-full max-w-6xl">
+              <div className="flex items-center justify-center w-full max-w-5xl gap-8">
                 <Link 
                   href="/" 
-                  className="text-neutral-700 hover:text-primary transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50"
+                  className="text-neutral-700 hover:text-primary transition-colors duration-300 font-medium px-3 py-2 rounded-lg hover:bg-gray-50"
                 >
                   {t('nav.home')}
                 </Link>
                 <Link 
                   href="/hizmetler" 
-                  className="text-neutral-700 hover:text-primary transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50"
+                  className="text-neutral-700 hover:text-primary transition-colors duration-300 font-medium px-3 py-2 rounded-lg hover:bg-gray-50"
                 >
                   {t('nav.services')}
                 </Link>
                 
                 {/* Logo */}
-                <Link href="/" className="flex items-center">
+                <Link href="/" className="flex items-center mx-4">
                   <motion.img 
                     src="/logos/emkanlogo.png" 
                     alt="Emkan Logo" 
@@ -70,17 +70,22 @@ export default function NavBar() {
                 
                 <Link 
                   href="/hakkimizda" 
-                  className="text-neutral-700 hover:text-primary transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50"
+                  className="text-neutral-700 hover:text-primary transition-colors duration-300 font-medium px-3 py-2 rounded-lg hover:bg-gray-50"
                 >
                   {t('nav.about')}
                 </Link>
                 <Link 
                   href="/iletisim" 
-                  className="text-neutral-700 hover:text-primary transition-colors duration-300 font-medium px-4 py-2 rounded-lg hover:bg-gray-50"
+                  className="text-neutral-700 hover:text-primary transition-colors duration-300 font-medium px-3 py-2 rounded-lg hover:bg-gray-50"
                 >
                   {t('nav.contact')}
                 </Link>
               </div>
+            </div>
+
+            {/* Desktop Dil Seçici - Sağ üst köşe */}
+            <div className="hidden lg:block absolute top-2 right-2">
+              <LanguageSelector />
             </div>
 
             {/* Mobile: logo left, menu button right */}
