@@ -72,22 +72,6 @@ export default function AboutPage() {
                 </div>
               </Reveal>
               
-              <Reveal y={30} delay={0.2} className="relative">
-                <div className="relative">
-                  <div className="aspect-[4/3] bg-gradient-to-br from-primary/10 to-accent/10 rounded-3xl p-8 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-24 h-24 bg-gradient-to-br from-accent to-primary rounded-2xl flex items-center justify-center mx-auto mb-6">
-                        <Globe2 className="w-12 h-12 text-white" />
-                      </div>
-                      <h3 className="text-2xl font-bold text-primary mb-2">{t('about.ourStory.globalVision.title') as string}</h3>
-                      <p className="text-gray-600">{t('about.ourStory.globalVision.description') as string}</p>
-                    </div>
-                  </div>
-                  {/* Floating elements */}
-                  <div className="absolute -top-4 -right-4 w-16 h-16 bg-accent/20 rounded-2xl rotate-12"></div>
-                  <div className="absolute -bottom-4 -left-4 w-12 h-12 bg-primary/20 rounded-xl -rotate-12"></div>
-                </div>
-              </Reveal>
             </div>
           </div>
         </div>
@@ -135,23 +119,6 @@ export default function AboutPage() {
                       <h3 className="text-2xl font-bold text-primary mb-4">{t('about.focusAreas.technologyQuality.title') as string}</h3>
                       <p className="text-gray-700 leading-relaxed">
                         {t('about.focusAreas.technologyQuality.description') as string}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </Reveal>
-
-              {/* Bölgesel Lider */}
-              <Reveal y={30} delay={0.3} className="group">
-                <div className="h-full bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 hover:border-accent/30">
-                  <div className="flex items-start gap-6">
-                    <div className="w-16 h-16 bg-gradient-to-br from-accent/20 to-accent/10 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                      <Globe2 className="w-8 h-8 text-accent" />
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-2xl font-bold text-primary mb-4">{t('about.focusAreas.regionalLeader.title') as string}</h3>
-                      <p className="text-gray-700 leading-relaxed">
-                        {t('about.focusAreas.regionalLeader.description') as string}
                       </p>
                     </div>
                   </div>

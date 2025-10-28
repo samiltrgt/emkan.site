@@ -23,8 +23,8 @@ export default function NavBar() {
 
   const navLinks = [
     { href: '/', label: t('nav.home') },
-    { href: '/hizmetler', label: t('nav.services') },
     { href: '/hakkimizda', label: t('nav.about') },
+    { href: '/hizmetler', label: t('nav.services') },
     { href: '/iletisim', label: t('nav.contact') },
   ]
 
@@ -121,7 +121,8 @@ export default function NavBar() {
           >
             <div className="container py-6">
               <div className="space-y-2">
-                {navLinks.map((link, index) => (
+                {/* Mobil menüde sadece Hakkımızda, Hizmetler, İletişim gösteriliyor */}
+                {navLinks.filter(link => link.href !== '/').map((link, index) => (
                   <motion.div
                     key={link.href}
                     initial={{ opacity: 0, x: -20 }}

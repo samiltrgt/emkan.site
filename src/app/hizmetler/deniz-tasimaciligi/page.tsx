@@ -86,33 +86,6 @@ export default function DenizTasimaciligiPage() {
             </div>
           </div>
           
-          <div className="card mb-16">
-            <h2 className="text-3xl font-bold mb-8 text-center text-primary">{t('servicePages.denizTasimaciligi.projectCargo.title')}</h2>
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                  📦
-                </div>
-                <h3 className="font-semibold text-lg mb-2">{t('servicePages.denizTasimaciligi.projectCargo.heavyCargo.title')}</h3>
-                <p className="text-neutral-600 text-sm">{t('servicePages.denizTasimaciligi.projectCargo.heavyCargo.description')}</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                  🚛
-                </div>
-                <h3 className="font-semibold text-lg mb-2">{t('servicePages.denizTasimaciligi.projectCargo.multimodal.title')}</h3>
-                <p className="text-neutral-600 text-sm">{t('servicePages.denizTasimaciligi.projectCargo.multimodal.description')}</p>
-              </div>
-              <div className="text-center">
-                <div className="w-16 h-16 bg-gradient-to-br from-primary to-accent rounded-2xl flex items-center justify-center text-white font-bold text-xl mx-auto mb-4">
-                  📍
-                </div>
-                <h3 className="font-semibold text-lg mb-2">{t('servicePages.denizTasimaciligi.projectCargo.routeOptimization.title')}</h3>
-                <p className="text-neutral-600 text-sm">{t('servicePages.denizTasimaciligi.projectCargo.routeOptimization.description')}</p>
-              </div>
-            </div>
-          </div>
-          
         </div>
       </div>
       </main>
