@@ -117,7 +117,7 @@ export default function NavBar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="fixed top-20 left-0 right-0 z-[90] bg-primary/95 backdrop-blur-xl shadow-2xl border-b border-white/20 md:hidden"
+            className="fixed top-16 left-0 right-0 z-[90] bg-primary/95 backdrop-blur-xl shadow-2xl border-b border-white/20 md:hidden"
           >
             <div className="container py-6">
               <div className="space-y-2">

@@ -14,63 +14,47 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
     <section className="relative h-screen flex items-center justify-center overflow-hidden snap-start">
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
+        {/* Desktop Video */}
         <video
-          className="w-full h-full object-cover"
+          className="hidden md:block w-full h-full object-cover absolute inset-0"
           autoPlay
           muted
-          loop
           playsInline
           preload="metadata"
-          poster="/videos/ocean-ship.jpg"
+          poster="/videos/emkan-poster.jpg"
         >
-          <source src="/videos/ocean-ship.mp4" type="video/mp4" />
+          <source src="/videos/emkan.mp4" type="video/mp4" />
+        </video>
+        
+        {/* Mobile Video */}
+        <video
+          className="block md:hidden w-full h-full object-contain absolute inset-0"
+          autoPlay
+          muted
+          playsInline
+          preload="metadata"
+          poster="/videos/emkan-mobile-poster.jpg"
+        >
+          <source src="/videos/emkan-mobile.mp4" type="video/mp4" />
         </video>
         
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/40"></div>
       </div>
       
-      {/* Content */}
+      {/* Animated Logo */}
       <div className="container relative z-10 text-center">
         <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="max-w-4xl mx-auto text-white"
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1.2, ease: "easeOut" }}
         >
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-4 md:mb-6 text-balance px-4">
-            {title}
+          <h1 className="font-black tracking-wider mb-1 text-white" style={{ fontSize: '88px' }}>
+            EMKAN
           </h1>
-          
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8 md:mb-12 max-w-3xl mx-auto leading-relaxed opacity-90 px-4"
-          >
-            {subtitle}
-          </motion.p>
-          
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.4 }}
-            className="flex flex-col sm:flex-row gap-4 md:gap-6 justify-center items-center px-4"
-          >
-            <a
-              href={ctaPrimary.href}
-              className="w-full sm:w-auto bg-accent text-white px-6 md:px-8 py-3 md:py-4 rounded-2xl font-semibold text-base md:text-lg hover:bg-accent/90 transition-all duration-300 hover:scale-105 shadow-lg text-center"
-            >
-              {ctaPrimary.label}
-            </a>
-            
-            <a
-              href={ctaSecondary.href}
-              className="w-full sm:w-auto bg-transparent border-2 border-white text-white px-6 md:px-8 py-3 md:py-4 rounded-2xl font-semibold text-base md:text-lg hover:bg-white hover:text-primary transition-all duration-300 text-center"
-            >
-              {ctaSecondary.label}
-            </a>
-          </motion.div>
+          <p className="font-light text-white" style={{ fontSize: '64px' }}>
+            GLOBAL
+          </p>
         </motion.div>
       </div>
     </section>
