@@ -13,9 +13,11 @@ export default function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-gradient-to-br from-accent to-white rounded-lg flex items-center justify-center">
-                <span className="text-primary font-bold text-sm">E</span>
-              </div>
+              <img 
+                src="/logos/emkanbeyaz.png" 
+                alt="Emkan Logo" 
+                className="w-8 h-8 object-contain"
+              />
               <span className="font-heading font-bold text-xl">Emkan Global</span>
             </div>
             <p className="text-neutral-300 mb-6 max-w-md">
