@@ -1,7 +1,7 @@
 import './globals.css'
 import Script from 'next/script'
 import { LanguageProvider } from '@/contexts/language-context'
-import LanguageSelector from '@/components/language-selector'
+import RTLWrapper from '@/components/rtl-wrapper'
 
 export const metadata = {
   title: 'Emkan Global | Küresel Deniz Taşımacılığı ve Emtia Ticareti',
@@ -122,7 +122,9 @@ export default function RootLayout({
       </head>
       <body className="font-sans antialiased bg-background text-text">
         <LanguageProvider>
-          {children}
+          <RTLWrapper>
+            {children}
+          </RTLWrapper>
         </LanguageProvider>
       </body>
     </html>
