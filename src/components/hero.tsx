@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { useEffect, useState } from 'react'
 
 interface HeroProps {
   title: string
@@ -10,6 +11,24 @@ interface HeroProps {
 }
 
 export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: HeroProps) {
+  const [logoWidth, setLogoWidth] = useState('192px')
+
+  useEffect(() => {
+    const updateLogoWidth = () => {
+      if (window.innerWidth >= 1024) {
+        setLogoWidth('400px')
+      } else if (window.innerWidth >= 768) {
+        setLogoWidth('300px')
+      } else {
+        setLogoWidth('192px')
+      }
+    }
+
+    updateLogoWidth()
+    window.addEventListener('resize', updateLogoWidth)
+    return () => window.removeEventListener('resize', updateLogoWidth)
+  }, [])
+
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden snap-start">
       {/* Background Video */}
@@ -53,7 +72,10 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
           <motion.img
             src="/logos/emkanbeyaz2.png"
             alt="Emkan Global"
-            className="mx-auto h-auto w-[200px] md:w-[300px] lg:w-[435px]"
+            className="mx-auto h-auto"
+            style={{
+              width: logoWidth
+            }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
