@@ -31,6 +31,7 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
           className="block md:hidden w-full h-full object-contain absolute inset-0"
           autoPlay
           muted
+          loop
           playsInline
           preload="metadata"
           poster="/videos/emkan-mobile-poster.jpg"
@@ -45,16 +46,19 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
       {/* Animated Logo */}
       <div className="container relative z-10 text-center">
         <motion.div
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+          initial={{ opacity: 0, scale: 0.8, y: 30 }}
+          animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={{ duration: 1.2, ease: "easeOut" }}
         >
-          <h1 className="font-black tracking-wider mb-1 text-white" style={{ fontSize: '88px' }}>
-            EMKAN
-          </h1>
-          <p className="font-light text-white" style={{ fontSize: '64px' }}>
-            GLOBAL
-          </p>
+          <motion.img
+            src="/logos/emkanbeyaz2.png"
+            alt="Emkan Global"
+            className="mx-auto max-w-md md:max-w-2xl lg:max-w-4xl w-full h-auto"
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
+            whileHover={{ scale: 1.05 }}
+          />
         </motion.div>
       </div>
     </section>
