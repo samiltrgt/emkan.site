@@ -55,7 +55,7 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
             alt="Emkan Global"
             className="mx-auto"
             style={{ 
-              width: 'clamp(200px, 30vw, 400px)',
+              width: 'clamp(200px, 30vw, 320px)',
               height: 'auto',
               maxWidth: '100%'
             }}
