@@ -15,16 +15,21 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
 
   useEffect(() => {
     const updateLogoWidth = () => {
-      if (window.innerWidth >= 1024) {
+      const width = window.innerWidth
+      if (width >= 1024) {
         setLogoWidth('400px')
-      } else if (window.innerWidth >= 768) {
+        console.log('Desktop width:', width, '-> 400px')
+      } else if (width >= 768) {
         setLogoWidth('300px')
+        console.log('Tablet width:', width, '-> 300px')
       } else {
         setLogoWidth('192px')
+        console.log('Mobile width:', width, '-> 192px')
       }
     }
 
     updateLogoWidth()
+    console.log('Logo width updated:', logoWidth)
     window.addEventListener('resize', updateLogoWidth)
     return () => window.removeEventListener('resize', updateLogoWidth)
   }, [])
@@ -74,7 +79,9 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
             alt="Emkan Global"
             className="mx-auto h-auto"
             style={{
-              width: logoWidth
+              width: logoWidth,
+              maxWidth: logoWidth,
+              minWidth: logoWidth
             }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
