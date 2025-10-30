@@ -53,7 +53,7 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
           <motion.img
             src="/logos/emkanbeyaz2.png"
             alt="Emkan Global"
-            className="mx-auto max-w-[200px] md:max-w-[300px] lg:max-w-[400px] h-auto"
+            className="mx-auto max-w-[200px] md:max-w-[300px] lg:max-w-[580px] h-auto"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.2, delay: 0.2, ease: "easeOut" }}
