@@ -17,8 +17,8 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
     const updateLogoWidth = () => {
       const width = window.innerWidth
       if (width >= 1024) {
-        setLogoWidth('400px')
-        console.log('Desktop width:', width, '-> 400px')
+        setLogoWidth('320px')
+        console.log('Desktop width:', width, '-> 320px')
       } else if (width >= 768) {
         setLogoWidth('300px')
         console.log('Tablet width:', width, '-> 300px')
