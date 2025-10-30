@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { useEffect, useState } from 'react'
 
 interface HeroProps {
   title: string
@@ -11,29 +10,6 @@ interface HeroProps {
 }
 
 export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: HeroProps) {
-  const [logoWidth, setLogoWidth] = useState('192px')
-
-  useEffect(() => {
-    const updateLogoWidth = () => {
-      const width = window.innerWidth
-      if (width >= 1024) {
-        setLogoWidth('320px')
-        console.log('Desktop width:', width, '-> 320px')
-      } else if (width >= 768) {
-        setLogoWidth('300px')
-        console.log('Tablet width:', width, '-> 300px')
-      } else {
-        setLogoWidth('192px')
-        console.log('Mobile width:', width, '-> 192px')
-      }
-    }
-
-    updateLogoWidth()
-    console.log('Logo width updated:', logoWidth)
-    window.addEventListener('resize', updateLogoWidth)
-    return () => window.removeEventListener('resize', updateLogoWidth)
-  }, [])
-
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden snap-start">
       {/* Background Video */}
@@ -78,12 +54,10 @@ export default function Hero({ title, subtitle, ctaPrimary, ctaSecondary }: Hero
             src="/logos/emkanbeyaz2.png"
             alt="Emkan Global"
             className="mx-auto"
-            style={{
-              width: logoWidth,
-              height: logoWidth,
-              maxWidth: logoWidth,
-              minWidth: logoWidth,
-              objectFit: 'contain'
+            style={{ 
+              width: 'clamp(200px, 30vw, 400px)',
+              height: 'auto',
+              maxWidth: '100%'
             }}
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
