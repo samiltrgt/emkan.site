@@ -27,6 +27,23 @@ export default function HizmetlerPage() {
               ]}
               videoSrc="/videos/shipbackg.mp4"
               posterSrc="/videos/ocean-ship.jpg"
+              nextSection="#pharmaceutical-supply"
+            />
+          </section>
+
+          {/* Pharmaceutical Supply */}
+          <section id="pharmaceutical-supply">
+            <ServiceSection
+              title={t('services.pharmaceuticalSupply.title') as string}
+              description={t('services.pharmaceuticalSupply.description') as string}
+              bullets={t('services.pharmaceuticalSupply.bullets') as string[]}
+              ctas={[
+                { label: t('services.pharmaceuticalSupply.ctaDetails') as string, href: '/hizmetler/ilac-tedarigi' },
+                { label: t('services.pharmaceuticalSupply.ctaQuote') as string, href: '/iletisim' }
+              ]}
+              videoSrc="/videos/stock-video-animation-damaged-disintegrating-cancer-cell.mp4"
+              reverse={true}
+              previousSection="#ocean-freight"
               nextSection="#urea-trading"
             />
           </section>
@@ -43,8 +60,7 @@ export default function HizmetlerPage() {
               ]}
               videoSrc="/videos/ure-sack.mp4"
               posterSrc="/videos/ure-sack.jpg"
-              reverse={true}
-              previousSection="#ocean-freight"
+              previousSection="#pharmaceutical-supply"
               nextSection="#bitumen-trading"
             />
           </section>

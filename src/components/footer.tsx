@@ -55,6 +55,11 @@ export default function Footer() {
                   {t('services.bitumenTrading.title') as string}
                 </Link>
               </li>
+              <li>
+                <Link href="/hizmetler/ilac-tedarigi" className="text-neutral-300 hover:text-accent transition-colors duration-300">
+                  {t('services.pharmaceuticalSupply.title') as string}
+                </Link>
+              </li>
             </ul>
           </div>
 

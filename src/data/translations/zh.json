@@ -47,6 +47,17 @@
       ],
       "ctaDetails": "详情",
       "ctaQuote": "获取报价"
+    },
+    "pharmaceuticalSupply": {
+      "title": "药品供应",
+      "description": "可靠的药品供应链；冷链物流和质量保证。",
+      "bullets": [
+        "直接供应符合GMP标准生产的产品",
+        "血清、静脉注射液和各种医疗产品组",
+        "为医疗机构和商业伙伴提供可靠的供应解决方案"
+      ],
+      "ctaDetails": "详情",
+      "ctaQuote": "获取报价"
     }
   },
   "kpi": {
@@ -115,6 +126,25 @@
         "guarantees": "我们的服务保证：",
         "guaranteesItems": "可靠供应 • 及时交付 • 质量保证"
       }
+    },
+    "ilacTedariği": {
+      "title": "药品供应",
+      "subtitle": "可靠的药品供应链；冷链物流和质量保证",
+      "reliableSupply": {
+        "title": "可靠的药品供应",
+        "description": "作为Emkan Global，我们是TURK İlaç ve Serum Sanayi A.Ş.的官方代表和供应合作伙伴，该公司是土耳其的知名制造商之一。在这方面，我们专业管理该公司按照高质量标准生产的药品和医疗产品的国际出口流程。",
+        "features": [
+          "直接供应符合GMP标准生产的产品",
+          "血清、静脉注射液和各种医疗产品组",
+          "为医疗机构和商业伙伴提供可靠的供应解决方案"
+        ]
+      },
+      "turkIlac": {
+        "title": "TURK İlaç ve Serum Sanayi A.Ş.官方代表",
+        "description": "作为Emkan Global，我们是TURK İlaç ve Serum Sanayi A.Ş.的官方代表和供应合作伙伴，该公司是土耳其的知名制造商之一。在这方面，我们专业管理该公司按照高质量标准生产的药品和医疗产品的国际出口流程。",
+        "production": "我们通过Emkan Global的广泛物流网络和运营经验，将TURK İlaç在安卡拉Akyurt的符合GMP标准的生产设施以及土耳其其他单位生产的产品可靠、快速、定期地交付给海外客户。",
+        "approach": "凭借我们在药品供应领域的整体服务方法，我们的目标是为商业伙伴提供以质量、连续性和专业解决方案为导向的运营。"
+      }
     }
   },
   "contact": {
@@ -138,6 +168,7 @@
       "oceanFreight": "海运",
       "ureaTrading": "尿素贸易",
       "bitumenTrading": "沥青贸易",
+      "pharmaceuticalSupply": "药品供应",
       "other": "其他"
     }
   },

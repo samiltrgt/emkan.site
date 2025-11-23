@@ -163,6 +163,7 @@ export default function IletisimPage() {
                       <option value="oceanFreight">{t('contact.serviceTypes.oceanFreight')}</option>
                       <option value="ureaTrading">{t('contact.serviceTypes.ureaTrading')}</option>
                       <option value="bitumenTrading">{t('contact.serviceTypes.bitumenTrading')}</option>
+                      <option value="pharmaceuticalSupply">{t('contact.serviceTypes.pharmaceuticalSupply')}</option>
                       <option value="other">{t('contact.serviceTypes.other')}</option>
                     </select>
                   </div>

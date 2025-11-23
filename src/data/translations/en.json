@@ -47,6 +47,17 @@
       ],
       "ctaDetails": "Details",
       "ctaQuote": "Get Quote"
+    },
+    "pharmaceuticalSupply": {
+      "title": "Pharmaceutical Supply",
+      "description": "Reliable pharmaceutical supply chain; cold chain logistics and quality guarantee.",
+      "bullets": [
+        "Direct supply from products manufactured in accordance with GMP standards",
+        "Serum, IV solutions and various medical product groups",
+        "Reliable supply solutions for healthcare institutions and business partners"
+      ],
+      "ctaDetails": "Details",
+      "ctaQuote": "Get Quote"
     }
   },
   "kpi": {
@@ -115,6 +126,25 @@
         "guarantees": "Our Service Guarantees:",
         "guaranteesItems": "Reliable Supply • Timely Delivery • Quality Guarantee"
       }
+    },
+    "ilacTedariği": {
+      "title": "Pharmaceutical Supply",
+      "subtitle": "Reliable pharmaceutical supply chain; cold chain logistics and quality guarantee.",
+      "reliableSupply": {
+        "title": "Reliable Pharmaceutical Supply",
+        "description": "As Emkan Global, we provide reliable pharmaceutical supply services for the healthcare sector.",
+        "features": [
+          "Direct supply from products manufactured in accordance with GMP standards",
+          "Serum, IV solutions and various medical product groups",
+          "Reliable supply solutions for healthcare institutions and business partners"
+        ]
+      },
+      "turkIlac": {
+        "title": "Official Representation of TURK İlaç ve Serum Sanayi A.Ş.",
+        "description": "As Emkan Global, we are the official representative and supply partner of TURK İlaç ve Serum Sanayi A.Ş., one of Turkey's established manufacturers. In this context, we professionally manage the international export processes of pharmaceutical and medical products produced by the company with high quality standards.",
+        "production": "We deliver products obtained from TURK İlaç's GMP-compliant production facility in Ankara Akyurt and other units in Turkey to overseas customers reliably, quickly and regularly through Emkan Global's extensive logistics network and operational experience.",
+        "approach": "With our holistic service approach in the field of pharmaceutical supply; we aim to provide our business partners with quality, continuity and professional solution-oriented operations."
+      }
     }
   },
   "contact": {
@@ -138,6 +168,7 @@
       "oceanFreight": "Ocean Freight",
       "ureaTrading": "Urea Trading",
       "bitumenTrading": "Bitumen Trading",
+      "pharmaceuticalSupply": "Pharmaceutical Supply",
       "other": "Other"
     }
   },

@@ -47,6 +47,17 @@
       ],
       "ctaDetails": "Detaylar",
       "ctaQuote": "Teklif Al"
+    },
+    "pharmaceuticalSupply": {
+      "title": "İlaç Tedariği",
+      "description": "Güvenilir ilaç tedarik zinciri; soğuk zincir lojistiği ve kalite garantisi.",
+      "bullets": [
+        "GMP standartlarında üretilen ürünlerden doğrudan tedarik",
+        "Serum, IV çözeltiler ve çeşitli medikal ürün grupları",
+        "Sağlık kuruluşlarına ve iş ortaklarına güvenilir tedarik çözümleri"
+      ],
+      "ctaDetails": "Detaylar",
+      "ctaQuote": "Teklif Al"
     }
   },
   "kpi": {
@@ -115,6 +126,25 @@
         "guarantees": "Hizmet Garantilerimiz:",
         "guaranteesItems": "Güvenilir Tedarik • Zamanında Teslimat • Kalite Garantisi"
       }
+    },
+    "ilacTedariği": {
+      "title": "İlaç Tedariği",
+      "subtitle": "Güvenilir ilaç tedarik zinciri; soğuk zincir lojistiği ve kalite garantisi.",
+      "reliableSupply": {
+        "title": "Güvenilir İlaç Tedariki",
+        "description": "Emkan Global olarak, sağlık sektörüne yönelik güvenilir ilaç tedarik hizmetleri sunuyoruz.",
+        "features": [
+          "GMP standartlarında üretilen ürünlerden doğrudan tedarik",
+          "Serum, IV çözeltiler ve çeşitli medikal ürün grupları",
+          "Sağlık kuruluşlarına ve iş ortaklarına güvenilir tedarik çözümleri"
+        ]
+      },
+      "turkIlac": {
+        "title": "TURK İlaç ve Serum Sanayi A.Ş. Resmî Temsilciliği",
+        "description": "Emkan Global olarak, Türkiye'nin köklü üreticilerinden TURK İlaç ve Serum Sanayi A.Ş.'nin resmî temsilcisi ve tedarik ortağı konumundayız. Bu kapsamda, şirketin yüksek kalite standartlarıyla ürettiği ilaç ve medikal ürünlerin uluslararası ihracat süreçlerini profesyonel şekilde yönetiyoruz.",
+        "production": "TURK İlaç'ın Ankara Akyurt'taki GMP uyumlu üretim tesisinden ve Türkiye'deki diğer birimlerinden elde edilen ürünleri, Emkan Global'in geniş lojistik ağı ve operasyonel tecrübesiyle yurtdışındaki müşterilere güvenilir, hızlı ve düzenli şekilde ulaştırıyoruz.",
+        "approach": "İlaç tedariki alanında sunduğumuz bütüncül hizmet yaklaşımıyla; iş ortaklarımıza kalite, süreklilik ve profesyonel çözüm odaklı operasyonlar sunmayı amaçlıyoruz."
+      }
     }
   },
   "contact": {
@@ -138,6 +168,7 @@
       "oceanFreight": "Deniz Taşımacılığı",
       "ureaTrading": "Üre Ticareti",
       "bitumenTrading": "Bitum Ticareti",
+      "pharmaceuticalSupply": "İlaç Tedariği",
       "other": "Diğer"
     }
   },

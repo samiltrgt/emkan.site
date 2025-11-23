@@ -11,7 +11,7 @@ interface ServiceSectionProps {
   bullets: string[]
   ctas: Array<{ label: string; href: string }>
   videoSrc: string
-  posterSrc: string
+  posterSrc?: string
   reverse?: boolean
   nextSection?: string
   previousSection?: string
@@ -77,13 +77,13 @@ export default function ServiceSection({
           loop
           playsInline
           preload="metadata"
-          poster={posterSrc}
+          poster={posterSrc || undefined}
         >
           <source src={videoSrc} type="video/mp4" />
         </video>
         
         {/* Fallback Image */}
-        {!isVideoLoaded && (
+        {!isVideoLoaded && posterSrc && (
           <div className="absolute inset-0">
             <Image
               src={posterSrc}
